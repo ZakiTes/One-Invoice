@@ -73,7 +73,7 @@ addItemBtn.addEventListener('click', addItemRow);
       const today = new Date().toLocaleDateString();
   
       // Header (Logo + Company Details)
-      const logo = '/logo.png'; // Adjust path as needed
+      const logo = 'logo.png'; // Adjust path as needed
       doc.addImage(logo, 'PNG', 10, 10, 40, 25); // Logo
       doc.setFontSize(16).setFont('helvetica', 'bold');
       doc.text('One Day Roofing & Siding Ltd.', 60, 15);
